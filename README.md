@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Rushil%20Dhube&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=AI%20%2F%20ML%20%C2%B7%20RAG%20%26%20LLMs%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=20&animation=fadeIn" width="100%" alt="Rushil Dhube" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Rushil%20Dhube&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=AI%20%2F%20ML%20%20%7C%20%20RAG%20and%20LLMs%20%20%7C%20%20Computer%20Vision&descAlignY=58&descSize=20&animation=fadeIn" width="100%" alt="Rushil Dhube" />
 
 <a href="https://github.com/rushildhube">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+RAG+%26+LLM-powered+apps;Computer+vision+for+healthcare;From+notebook+to+production+API" alt="Typing intro" />
@@ -90,6 +90,18 @@ Classifies **6 dental conditions** from patient images with a fine-tuned **ViT-B
 
 `PyTorch` `ViT` `FastAPI` `MongoDB` `Docker`
 
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- Fine-tuned ViT-B/16 on 3,000+ images across Caries, Gingivitis, Hypodontia, Discoloration, Mouth Ulcer and Tooth Decay
+- 0.99 F1-score on Mouth Ulcer detection
+- Async microservice backend with OAuth2/JWT auth and persistent storage
+- Generates a PDF report with treatment recommendations and emails it to the patient
+- Tested with 100+ users; presented at Aavishkar 2025
+
+</details>
+
 </td>
 <td width="50%" valign="top">
 
@@ -97,6 +109,17 @@ Classifies **6 dental conditions** from patient images with a fine-tuned **ViT-B
 A WhatsApp bot that scans food labels with OCR and NLP and flags harmful ingredients for your health profile. **90%+ detection accuracy.**
 
 `Tesseract OCR` `BERT` `Twilio` `Python`
+
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- Send a photo of a label or barcode on WhatsApp
+- Tesseract OCR reads the ingredient list, and a BERT-based model flags risky ingredients
+- Checks the product against your allergies and health profile
+- Calls out misleading marketing claims and gives nutrition insights
+
+</details>
 
 </td>
 </tr>
@@ -108,13 +131,34 @@ Retinal disease prediction from fundus images using two CNNs and a meta-classifi
 
 `TensorFlow` `CNN` `Ensembles` `Streamlit`
 
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- Trained on 5,000+ fundus images across 4 classes
+- Two CNNs make predictions, and a meta-classifier combines them for higher accuracy
+- Upload a retinal image and get a diagnosis in under 3 seconds
+
+</details>
+
 </td>
 <td width="50%" valign="top">
 
 ### [Safe Surf AI](https://github.com/rushildhube/Safe_surf_ai)
 A Chrome extension for real-time phishing and malicious-URL detection, using VirusTotal and homograph checks.
 
-`Django` `FastAPI` `Chrome Extension` `Redis`
+`Django` `FastAPI` `Chrome Extension` `VirusTotal`
+
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- AI model sorts every URL you visit into safe, suspicious or phishing
+- Homograph and shortened-URL detection catches look-alike and hidden links
+- Multi-engine checks through VirusTotal
+- Django backend with FastAPI modules, and Selenium for live page capture
+
+</details>
 
 </td>
 </tr>
@@ -122,17 +166,38 @@ A Chrome extension for real-time phishing and malicious-URL detection, using Vir
 <td width="50%" valign="top">
 
 ### [NeuroMedix](https://github.com/rushildhube/NeuroMedix)
-Early prediction of Parkinson's and Alzheimer's with an ensemble of Random Forest, XGBoost and SVM. **88% accuracy.**
+An AI medical assistant that pulls live research from PubMed and combines it with patient data to suggest evidence-based diagnoses.
 
-`Scikit-Learn` `XGBoost` `Feature Engineering`
+`RAG` `BioBERT` `Llama / DeepSeek` `ChromaDB` `Flask`
+
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- Retrieval-Augmented Generation over PubMed papers and peer-reviewed journals
+- BioBERT embeddings stored in ChromaDB for fast vector search
+- Llama and DeepSeek models (served through Groq) generate patient-specific insights
+- Produces structured PDF reports for doctors and patients
+
+</details>
 
 </td>
 <td width="50%" valign="top">
 
 ### [Potato Disease Classification](https://github.com/rushildhube/Potato-Disease-Classification)
-A CNN that detects potato leaf diseases, built with TensorFlow.
+A Flask web app that detects potato leaf diseases from a photo using a TensorFlow CNN.
 
-`TensorFlow` `CNN` `Jupyter`
+`TensorFlow` `CNN` `Flask` `Bootstrap`
+
+<details>
+<summary><b>How it works</b></summary>
+<br/>
+
+- Classifies leaf images as early blight, late blight or healthy
+- CNN trained with TensorFlow, with training and evaluation in a Jupyter notebook
+- Upload a photo in the Flask and Bootstrap web app and get the result instantly
+
+</details>
 
 </td>
 </tr>
@@ -144,11 +209,29 @@ A CNN that detects potato leaf diseases, built with TensorFlow.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rushildhube&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushildhube&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rushildhube&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=rushildhube&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&hide_border=true&icon_color=7c3aed&title_color=7c3aed" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushildhube&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushildhube&layout=compact&langs_count=6&hide_border=true&title_color=7c3aed" alt="Top languages" />
+</picture>
 
-<img src="https://streak-stats.demolab.com?user=rushildhube&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rushildhube&theme=tokyonight&hide_border=true&background=0d1117" />
+  <img src="https://streak-stats.demolab.com?user=rushildhube&hide_border=true&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" alt="GitHub streak" />
+</picture>
 
+</div>
+
+<br/>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rushildhube/rushildhube/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <img src="https://raw.githubusercontent.com/rushildhube/rushildhube/main/profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph" />
+</picture>
 </div>
 
 <br/>
