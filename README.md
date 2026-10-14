@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Rushil%20Dhube&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Generative%20AI%20Engineer%20%E2%80%A2%20Healthcare%20AI&descAlignY=58&descSize=20&animation=fadeIn" width="100%" alt="Rushil Dhube" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Rushil%20Dhube&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=AI%20%2F%20ML%20%C2%B7%20RAG%20%26%20LLMs%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=20&animation=fadeIn" width="100%" alt="Rushil Dhube" />
 
 <a href="https://github.com/rushildhube">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=640&lines=AI+Researcher+%40+Ethosh;Building+RAG+%26+LLM-powered+systems;Healthcare+AI+%7C+Computer+Vision;From+model+to+production+API" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+RAG+%26+LLM-powered+apps;Computer+vision+for+healthcare;From+notebook+to+production+API" alt="Typing intro" />
 </a>
 
 <p>
@@ -16,28 +16,25 @@
 
 ---
 
-## 👨‍💻 About me
+## About me
 
 ```python
 class RushilDhube:
-    role       = "AI Researcher @ Ethosh"
-    location   = "Pune, India 🇮🇳"
-    focus      = ["Generative AI", "RAG & LLMs", "Healthcare AI", "Computer Vision"]
-    education  = "B.E. Artificial Intelligence & Machine Learning, ISBM COE (2022–2026)"
-    building   = "A modular Hospital Information Management System (IPD, OPD, OT, Pharmacy)"
+    location  = "Pune, India"
+    interests = ["Generative AI", "RAG & LLMs", "Computer Vision", "Healthcare AI"]
+    education = "B.E. Artificial Intelligence & Machine Learning"
 
     def philosophy(self):
-        return "Take AI from notebook to production: model → API → evaluation → deployment."
+        return "Take AI from notebook to production: model -> API -> evaluation -> deployment."
 ```
 
-- 🏥 I build **healthcare AI** that ships: diagnostics, medical document intelligence and patient-facing assistants
-- 🧠 Day to day: **RAG pipelines, LLM apps, guardrails & evaluation**, plus fast async backends
-- 🏆 **3× first place** in hackathons and project exhibitions · presenter at **Aavishkar 2025** (SPPU research competition)
-- 🤝 Core member of the AIML Club at ISBM COE, where I've helped 50+ students get started with ML
+- I like building AI that people actually use: diagnostics, document intelligence and assistants
+- Most of my time goes into RAG pipelines, LLM apps, guardrails and evaluation, plus fast async backends
+- I've won first place at three hackathons and project exhibitions, and presented at Aavishkar 2025
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
 <div align="center">
 
@@ -59,26 +56,13 @@ class RushilDhube:
 
 ---
 
-## 💼 Experience
-
-| Role | Company | When |
-|---|---|---|
-| **AI Researcher**: architecting a modular Hospital Information Management System | Ethosh | Jun 2026 – now |
-| **AI Engineer Intern**: multi-tenant healthcare CRM (60% less manual effort), distributor platform centralizing 34,000+ SKUs | Ethosh | Dec 2025 – Jun 2026 |
-| **AI/ML Intern**: led a 4-person team on *Hsuit*; patient-report analysis with Hindi + English voice summaries | Prushal Technology | Sep 2025 – May 2026 |
-| **AI Engineer**: voice & chat agents (STT, TTS, telephony), content automation (−70% manual effort) | SniperThink | Sep 2025 – Dec 2025 |
-| **AI Intern**: production RAG nutrition chatbot with streaming, PII masking and safety evaluation | Wellbe360 | Sep 2025 – Nov 2025 |
-| **AI Intern**: retinal disease CNN, 92.4% accuracy on 5,000+ fundus images | Edunet Foundation (Microsoft & SAP-AICTE) | Feb 2025 – Apr 2025 |
-
----
-
-## 🚀 Featured projects
+## Featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🦷 AI Dental Diagnosis Platform
+### AI Dental Diagnosis Platform
 Classifies **6 dental conditions** from patient images with a fine-tuned **ViT-B/16**: **92.28% accuracy**, results in under 3 s, plus auto-generated PDF reports.
 
 `PyTorch` `ViT` `FastAPI` `MongoDB` `Docker`
@@ -86,7 +70,7 @@ Classifies **6 dental conditions** from patient images with a fine-tuned **ViT-B
 </td>
 <td width="50%" valign="top">
 
-### 🥫 [ConsumeWise](https://github.com/rushildhube/ConsumeWise-Health-Product-Analysis-WhatsApp-Bot)
+### [ConsumeWise](https://github.com/rushildhube/ConsumeWise-Health-Product-Analysis-WhatsApp-Bot)
 A WhatsApp bot that scans food labels with OCR and NLP and flags harmful ingredients for your health profile. **90%+ detection accuracy.**
 
 `Tesseract OCR` `BERT` `Twilio` `Python`
@@ -96,15 +80,15 @@ A WhatsApp bot that scans food labels with OCR and NLP and flags harmful ingredi
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ [Eye Disease Classifier](https://github.com/rushildhube/Eye-Disease-Classifier)
-Retinal disease prediction from fundus images using two CNNs and a meta-classifier, served in a Streamlit app.
+### [Eye Disease Classifier](https://github.com/rushildhube/Eye-Disease-Classifier)
+Retinal disease prediction from fundus images using two CNNs and a meta-classifier, served in a Streamlit app. **92.4% accuracy.**
 
 `TensorFlow` `CNN` `Ensembles` `Streamlit`
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [Safe Surf AI](https://github.com/rushildhube/Safe_surf_ai)
+### [Safe Surf AI](https://github.com/rushildhube/Safe_surf_ai)
 A Chrome extension for real-time phishing and malicious-URL detection, using VirusTotal and homograph checks.
 
 `Django` `FastAPI` `Chrome Extension` `Redis`
@@ -114,7 +98,7 @@ A Chrome extension for real-time phishing and malicious-URL detection, using Vir
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [NeuroMedix](https://github.com/rushildhube/NeuroMedix)
+### [NeuroMedix](https://github.com/rushildhube/NeuroMedix)
 Early prediction of Parkinson's and Alzheimer's with an ensemble of Random Forest, XGBoost and SVM. **88% accuracy.**
 
 `Scikit-Learn` `XGBoost` `Feature Engineering`
@@ -122,7 +106,7 @@ Early prediction of Parkinson's and Alzheimer's with an ensemble of Random Fores
 </td>
 <td width="50%" valign="top">
 
-### 🥔 [Potato Disease Classification](https://github.com/rushildhube/Potato-Disease-Classification)
+### [Potato Disease Classification](https://github.com/rushildhube/Potato-Disease-Classification)
 A CNN that detects potato leaf diseases, built with TensorFlow.
 
 `TensorFlow` `CNN` `Jupyter`
@@ -133,7 +117,7 @@ A CNN that detects potato leaf diseases, built with TensorFlow.
 
 ---
 
-## 📊 GitHub stats
+## GitHub stats
 
 <div align="center">
 
@@ -144,9 +128,7 @@ A CNN that detects potato leaf diseases, built with TensorFlow.
 
 </div>
 
----
-
-## 🐍 Contribution snake
+<br/>
 
 <div align="center">
 <picture>
@@ -158,20 +140,19 @@ A CNN that detects potato leaf diseases, built with TensorFlow.
 
 ---
 
-## 🏆 Achievements & certifications
+## Achievements
 
-- 🥇 **1st place**: State-Level Hackathon, Ajeenkya D.Y. Patil School of Technology
-- 🥇 **1st place**: Intra-College Hackathon, ISBM College of Engineering
-- 🥇 **1st place**: Project Exhibition, ISBM College of Engineering
-- 🎤 **Presenter**: Aavishkar 2025, on AI-assisted dental diagnostics using panoramic X-rays
-- 📜 **NPTEL Python for Data Science** (IIT Madras): top 5% nationwide
-- 📜 **Supervised Machine Learning** (Coursera, Andrew Ng)
+- **1st place**: State-Level Hackathon, Ajeenkya D.Y. Patil School of Technology
+- **1st place**: Intra-College Hackathon, ISBM College of Engineering
+- **1st place**: Project Exhibition, ISBM College of Engineering
+- **Presenter**: Aavishkar 2025, on AI-assisted dental diagnostics using panoramic X-rays
+- **NPTEL Python for Data Science** (IIT Madras): top 5% nationwide
 
 ---
 
 <div align="center">
 
-**Let's build AI that actually reaches people.** Reach me on [LinkedIn](https://www.linkedin.com/in/rushildhube) or by [email](mailto:rushildhube1305@gmail.com).
+Reach me on [LinkedIn](https://www.linkedin.com/in/rushildhube) or by [email](mailto:rushildhube1305@gmail.com).
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="" />
 
