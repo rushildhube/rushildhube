@@ -38,19 +38,42 @@ class RushilDhube:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,django,flask,postgres,mongodb,redis,docker,gcp,linux,git,githubactions,js,ts,react,vite&perline=10" alt="Tech stack" />
+<p>
+  <a href="https://www.python.org" title="Python"><img src="https://skillicons.dev/icons?i=python" width="48" alt="Python" /></a>
+  <a href="https://pytorch.org" title="PyTorch"><img src="https://skillicons.dev/icons?i=pytorch" width="48" alt="PyTorch" /></a>
+  <a href="https://www.tensorflow.org" title="TensorFlow"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" alt="TensorFlow" /></a>
+  <a href="https://scikit-learn.org" title="scikit-learn"><img src="https://skillicons.dev/icons?i=sklearn" width="48" alt="scikit-learn" /></a>
+  <a href="https://opencv.org" title="OpenCV"><img src="https://skillicons.dev/icons?i=opencv" width="48" alt="OpenCV" /></a>
+  <a href="https://fastapi.tiangolo.com" title="FastAPI"><img src="https://skillicons.dev/icons?i=fastapi" width="48" alt="FastAPI" /></a>
+  <a href="https://www.djangoproject.com" title="Django"><img src="https://skillicons.dev/icons?i=django" width="48" alt="Django" /></a>
+  <a href="https://flask.palletsprojects.com" title="Flask"><img src="https://skillicons.dev/icons?i=flask" width="48" alt="Flask" /></a>
+  <a href="https://www.postgresql.org" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" width="48" alt="PostgreSQL" /></a>
+  <a href="https://www.mongodb.com" title="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB" /></a>
+</p>
+<p>
+  <a href="https://redis.io" title="Redis"><img src="https://skillicons.dev/icons?i=redis" width="48" alt="Redis" /></a>
+  <a href="https://www.docker.com" title="Docker"><img src="https://skillicons.dev/icons?i=docker" width="48" alt="Docker" /></a>
+  <a href="https://cloud.google.com" title="Google Cloud"><img src="https://skillicons.dev/icons?i=gcp" width="48" alt="Google Cloud" /></a>
+  <a href="https://www.kernel.org" title="Linux"><img src="https://skillicons.dev/icons?i=linux" width="48" alt="Linux" /></a>
+  <a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git" width="48" alt="Git" /></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=githubactions" width="48" alt="GitHub Actions" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" alt="JavaScript" /></a>
+  <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="48" alt="TypeScript" /></a>
+  <a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react" width="48" alt="React" /></a>
+  <a href="https://vite.dev" title="Vite"><img src="https://skillicons.dev/icons?i=vite" width="48" alt="Vite" /></a>
+</p>
 
-<br/><br/>
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![TruLens](https://img.shields.io/badge/TruLens-0B7285?style=flat-square)
-![Vision Transformers](https://img.shields.io/badge/ViT-FF6F00?style=flat-square&logo=pytorch&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
-![OAuth2/JWT](https://img.shields.io/badge/OAuth2%20%2F%20JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+<p>
+  <a href="https://platform.openai.com"><img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /></a>
+  <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+  <a href="https://www.langchain.com"><img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" /></a>
+  <a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" /></a>
+  <a href="https://qdrant.tech"><img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" /></a>
+  <a href="https://www.trulens.org"><img src="https://img.shields.io/badge/TruLens-0B7285?style=flat-square" alt="TruLens" /></a>
+  <a href="https://huggingface.co/docs/transformers/model_doc/vit"><img src="https://img.shields.io/badge/ViT-FF6F00?style=flat-square&logo=pytorch&logoColor=white" alt="Vision Transformers" /></a>
+  <a href="https://www.twilio.com"><img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" alt="Twilio" /></a>
+  <a href="https://jwt.io"><img src="https://img.shields.io/badge/OAuth2%20%2F%20JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="OAuth2/JWT" /></a>
+</p>
 
 </div>
 
