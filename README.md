@@ -9,7 +9,7 @@
 <p>
   <a href="https://www.linkedin.com/in/rushildhube"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:rushildhube1305@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=rushildhube&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://www.fiverr.com/rushildhube"><img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr" /></a>
 </p>
 
 </div>
