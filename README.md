@@ -85,7 +85,7 @@ class RushilDhube:
 <tr>
 <td width="50%" valign="top">
 
-### AI Dental Diagnosis Platform
+### [ScanAI: Dental Diagnosis Platform](https://github.com/rushildhube/ScanAI)
 Classifies **6 dental conditions** from patient images with a fine-tuned **ViT-B/16**: **92.28% accuracy**, results in under 3 s, plus auto-generated PDF reports.
 
 `PyTorch` `ViT` `FastAPI` `MongoDB` `Docker`
@@ -184,18 +184,20 @@ An AI medical assistant that pulls live research from PubMed and combines it wit
 </td>
 <td width="50%" valign="top">
 
-### [Potato Disease Classification](https://github.com/rushildhube/Potato-Disease-Classification)
-A Flask web app that detects potato leaf diseases from a photo using a TensorFlow CNN.
+### RushilOS: my portfolio as a Linux desktop
+My portfolio, built as a working Linux desktop that runs in the browser, with 20 apps, a window manager and an AI assistant that answers questions about my work. *Launching soon.*
 
-`TensorFlow` `CNN` `Flask` `Bootstrap`
+`React` `Vite` `FastAPI` `PostgreSQL` `RAG` `Docker`
 
 <details>
 <summary><b>How it works</b></summary>
 <br/>
 
-- Classifies leaf images as early blight, late blight or healthy
-- CNN trained with TensorFlow, with training and evaluation in a Jupyter notebook
-- Upload a photo in the Flask and Bootstrap web app and get the result instantly
+- React 18 + Vite desktop shell with a window manager, 20 apps, Web Audio sounds and CSS wallpapers
+- FastAPI, SQLAlchemy 2, Alembic and PostgreSQL backend for content, auth and inbox
+- Built-in assistant that answers visitor questions using RAG
+- Owner mode: `sudo -i` in the Terminal unlocks live editing of all content
+- Automated tests and Docker builds in CI
 
 </details>
 
